@@ -17,7 +17,7 @@ export class TypesenseService implements OnModuleInit {
     this.client = new Client({
       nodes: [
         {
-          host: 'localhost',
+          host: '10.249.111.59',
           port: 8108,
           protocol: 'http',
         },

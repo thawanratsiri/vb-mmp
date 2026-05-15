@@ -12,7 +12,7 @@ export default defineConfig({
     // https://stackoverflow.com/a/74430384
     proxy: {
       "/api": {
-        target: "http://localhost:3000",
+        target: "http://10.249.111.59:3000",
         changeOrigin: true,
         secure: false,
         ws: true,
